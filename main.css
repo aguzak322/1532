@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost";
+    font-weight: 500;
+    color: #000;
+    font-size: 32px;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+.rectangle {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.btn {
+    font-family: "Jost";
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 8%;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: all 500ms ease;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+
+.zone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 46px
+}
+
+.line {
+    height: 4px;
+    width: 100%;
+    background-color: #000;
+    
+}
+
+.dis {
+    width: 100%;
+    height: 690px;
+    background-color: #fff;
+}
+
+.mlog {
+    position: absolute;
+    padding-top: 36px;
+    padding-left: 10.6%;
+}
+
+.text {
+    position: relative;
+    padding-left: 10.6%;
+    padding-top: 36px;
+    text-indent: 7%;
+    padding-right: 8.82%;
+}
+
+.line2 {
+    background-color: #000;
+    height: 4px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.botl {
+    float: right;
+    padding-top: 6px;
+}
+
+.sup {
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 1%;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: 'Jost';
+    background-color: #fff;
+    border: none;
+}
